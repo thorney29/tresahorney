@@ -28,8 +28,8 @@
 </script>
 </head>
 <body> 
-<?php include_once("analyticstracking.php") ?> 
-<!-- <header>
+<!-- <?php include_once("analyticstracking.php") ?> 
+ --><!-- <header>
 <span class="title">Tresa Horney</span>
 </header> -->
 <div class="container">
