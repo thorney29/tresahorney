@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gallery</title>
+
+</head>
+<body>
+
+  <div class="view-container">
+This is home.
+  </div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script>
+var csv = "https://docs.google.com/spreadsheets/d/1ESijhx4FCYMPFm8P7O04dQd7v0b5Rh6WOUNwMRDM7-Q/pub?output=csv";
+//var csv is the CSV file with headers
+function csvJSON(csv){
+
+  var lines=csv.split("\n");
+
+  var result = [];
+
+  var headers=lines[0].split(",");
+
+  for(var i=1;i<lines.length;i++){
+
+	  var obj = {};
+	  var currentline=lines[i].split(",");
+
+	  for(var j=0;j<headers.length;j++){
+		  obj[headers[j]] = currentline[j];
+	  }
+
+	  result.push(obj);
+
+  }
+  
+  //return result; //JavaScript object
+  //return JSON.stringify(result); //JSON
+  console.log(result);
+
+}
+
+var items = $('#main p').map(function () { return $(this).text(); }).get();
+</script>
+</body>
+</html>
