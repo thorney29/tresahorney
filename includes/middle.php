@@ -1,9 +1,9 @@
 
   <!-- Stylesheets -->
-<link rel="stylesheet" type="text/css" href="../styles/normalize.css" />
-<link rel="stylesheet" type="text/css" href="../styles/component.css" />
+<link rel="stylesheet" type="text/css" href=" styles/normalize.css" />
+<link rel="stylesheet" type="text/css" href=" styles/component.css" />
 <!-- <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.2.0/css/font-awesome.min.css" /> -->
-<link rel="stylesheet" type="text/css" href="../styles/styles.css">
+<link rel="stylesheet" type="text/css" href=" styles/styles.css">
 <!-- <link rel="stylesheet" type="text/css" href="../styles/small-device.css"> -->
 <script src="https://use.fontawesome.com/309e09e630.js"></script>
  <!-- Typekit font -->
@@ -19,8 +19,8 @@
   })(document);
 </script>
 
-<script src="/scripts/modernizr.custom.41979.js"></script>
-<script src="/scripts/jquery-1.12.3.min.js"></script>
+<script src="scripts/modernizr.custom.41979.js"></script>
+<script src="scripts/jquery-1.12.3.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function(){
     $('html').css('visibility', 'visible');
