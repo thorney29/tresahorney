@@ -1,4 +1,6 @@
-
+ <?php
+$relative = "/tresahorney.com"
+?>
   <!-- Stylesheets -->
 <link rel="stylesheet" type="text/css" href=" styles/normalize.css" />
 <link rel="stylesheet" type="text/css" href=" styles/component.css" />
@@ -44,25 +46,25 @@
 <nav id="menu" class="nav">  
   <ul>
     <li>
-      <a  href="/" title="">
+      <a  href="<?php echo $relative ; ?>" title="">
         <span  class="icon"> <i class="fa fa-home" aria-hidden="true"></i>
 </span><span>Home</span>
       </a>
     </li>
     <li>    
-      <a href="/about-tresa" title=""><span class="icon"> <i class="fa fa-address-card-o" aria-hidden="true"></i>
+      <a href="<?php echo $relative ; ?>/about-tresa" title=""><span class="icon"> <i class="fa fa-address-card-o" aria-hidden="true"></i>
        </span><span>About</span></a> 
     </li> 
     <li>
-      <a  href="/portfolio" title=""><span  class="icon"><i class="fa fa-th-large" aria-hidden="true"></i>
+      <a  href="<?php echo $relative ; ?>/portfolio" title=""><span  class="icon"><i class="fa fa-th-large" aria-hidden="true"></i>
       </span><span>Portfolio</span></a>
     </li>
     <li>
-      <a  href="/services" title=""><span class="icon"><i class="fa fa-info" aria-hidden="true"></i>
+      <a  href="<?php echo $relative ; ?>/services" title=""><span class="icon"><i class="fa fa-info" aria-hidden="true"></i>
       </span><span>Services</span></a>
     </li>
     <li>
-      <a  href="/contact" title=""><span  class="icon"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+      <a  href="<?php echo $relative ; ?>/contact" title=""><span  class="icon"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>
 </span><span>Contact</span></a>
     </li>
   </ul>

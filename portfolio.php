@@ -36,7 +36,7 @@ include("includes/middle.php");
     <!--Portland Streetcar Bars --> 
   <li class="overlay-fade-in"> 
     <a href="http://www.portlandstreetcarbars.com" target="_blank">
-      <img src="../img/portland-streetcar-bars.png" alt="Portland Streetcar Bars" >
+      <img src="<?php echo $relative ; ?>/img/portland-streetcar-bars.png" alt="Portland Streetcar Bars" >
     </a>
     <div onclick="void(0)" class="image-overlay-content">
       <h2>Portland Streetcar Bars</h2>
@@ -47,7 +47,7 @@ include("includes/middle.php");
 <!--Race Talks -->   <hr>             
   <li class="overlay-fade-in"> 
   <a href="http://www.racetalkspdx.com" target="_blank">
-     <img src="../img/racetalkspdx.jpg" alt="Race Talks PDX" title="Race Talks PDX">
+     <img src="<?php echo $relative ; ?>/img/racetalkspdx.jpg" alt="Race Talks PDX" title="Race Talks PDX">
   </a>
   <div onclick="void(0)" class="image-overlay-content">
       <h2>Race Talks</h2>
@@ -58,7 +58,7 @@ include("includes/middle.php");
  <!--Plato--> <hr>
   <li class="overlay-fade-in"> 
   <a href="http://www.tiyamiles.com" target="_blank">
-    <img src="../img/tiya-miles.png" alt="Tiya Miles">
+    <img src="<?php echo $relative ; ?>/img/tiya-miles.png" alt="Tiya Miles">
   </a>
   <div onclick="void(0)" class="image-overlay-content">
       <h2>Tiya Miles</h2>
@@ -68,7 +68,7 @@ include("includes/middle.php");
 </li>
   <li class="overlay-fade-in"> 
   <a href="http://www.superthank.org" target="_blank">
-    <img src="../img/superthank.png" alt="SuperThank">
+    <img src="<?php echo $relative ; ?>/img/superthank.png" alt="SuperThank">
   </a>
   <div onclick="void(0)" class="image-overlay-content">
       <h2>SuperThank</h2>
@@ -78,7 +78,7 @@ include("includes/middle.php");
 </li>
   <li class="overlay-fade-in"> 
   <a onclick="void(0)" href="http://www.abigaildiskin.com" target="_blank">
-    <img src="../img/abigail-diskin.png" alt="Abigail Diskin">
+    <img src="<?php echo $relative ; ?>/img/abigail-diskin.png" alt="Abigail Diskin">
   </a>
   <div onclick="void(0)" class="image-overlay-content">
       <h2>Abigail Diskin</h2>
