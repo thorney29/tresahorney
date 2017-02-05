@@ -51,8 +51,14 @@ $relative = "/tresahorney.com"
 </span><span>Home</span>
       </a>
     </li>
+<<<<<<< HEAD
     <li>    
       <a href="<?php echo $relative ; ?>/about-tresa" title=""><span class="icon"> <i class="fa fa-address-card-o" aria-hidden="true"></i>
+=======
+    <li> 
+     
+      <a href=" <?php echo $_SERVER['BASE_URL']; ?> /about-tresa" title=""><span class="icon"> <i class="fa fa-address-card-o" aria-hidden="true"></i>
+>>>>>>> 2e8a3c73107d1a9f77dbb1a80e5fd41e58bf2826
        </span><span>About</span></a> 
     </li> 
     <li>
