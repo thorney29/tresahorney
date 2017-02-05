@@ -49,8 +49,9 @@
 </span><span>Home</span>
       </a>
     </li>
-    <li>    
-      <a href="/about-tresa" title=""><span class="icon"> <i class="fa fa-address-card-o" aria-hidden="true"></i>
+    <li> 
+     
+      <a href=" <?php echo $_SERVER['BASE_URL']; ?> /about-tresa" title=""><span class="icon"> <i class="fa fa-address-card-o" aria-hidden="true"></i>
        </span><span>About</span></a> 
     </li> 
     <li>
