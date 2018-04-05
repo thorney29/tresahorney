@@ -1,0 +1,98 @@
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+	
+	/* Styles */
+body,footer {
+	width: 480px;
+	margin: 0;
+	padding: 0;
+	
+ }
+
+#burst-12 {
+	background: red;
+	width: 190px;
+	height: 190px;
+	position: relative;
+	text-align: center;
+	margin: -130px 13%;
+	z-index: -20;
+}
+#burst-12:before,
+#burst-12:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height:  190px;
+	width: 190px;
+	background: red;
+}
+/*#menu{display:block;}
+*/#menu {
+	color: blue;
+	font-size: 14px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	text-decoration: none;
+	border: thick solid rgba(89,96,135,1.00);
+	border-radius: 10px;
+	padding: 20px;
+	}
+#menu a {text-decoration: none; }
+#menu:hover { background: #FFD80E; }
+.title  {
+	font-family: "bello-pro";
+	font-size: 59px;
+	margin-left: 2%;
+	margin-top: 1%;
+	float: left;
+	}
+header h1 {
+	width: 100%;
+	color: white;
+	font-size: 14em;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+}
+/*nav {display:none;}
+*/
+nav {
+	width: 100%;
+ 	float: none;
+	margin: 0;}
+nav li, 
+li {
+	height: auto;
+	margin: 0 auto;
+}
+nav li a {
+	font-size: 18px;}
+ 
+h1,
+h1 a {
+	font-family: "jaf-facitweb", sans-serif;
+	color: #2A2A2A;
+	text-decoration: none;
+	font-style: normal;
+	line-height: 100%;
+ 	overflow: hidden;
+	white-space: nowrap;
+}
+h2 {
+	font-style: normal;
+	font-weight: 800;
+	line-height: 100%;
+	font-size: 3.0rem;
+	text-align: center;
+}
+article {
+	width: 98%;
+	padding: 2%;
+} 
+footer ul.social {
+ 		width: 420px;
+		margin: 0 auto;
+ }}

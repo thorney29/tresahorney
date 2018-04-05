@@ -1,0 +1,66 @@
+@font-face {
+	font-family: 'ostrich bold';
+	src: url('../ostrich-bold-webfont.eot');
+	src: url('../ostrich-bold-webfont.eot?#iefix') format('embedded-opentype'),
+url('../ostrich-bold-webfont.woff') format('woff'),
+url('../ostrich-bold-webfont.ttf') format('truetype'),
+url('../ostrich-bold-webfont.svg') format('svg');
+}
+nav {
+	display: inline;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+}
+
+
+.horiNav ul{
+	padding:0;
+	margin:0 0 0 5px;
+	list-style: none;
+	overflow: hidden;
+}
+.horiNav li{
+	display: inline-block;
+	float: left;
+}
+
+.horiNav a{
+	background-color: #0E7F07;
+	color: #FFf;
+	border: 2px groove #DCCEA7;
+	border-radius: 5px 5px 0 5px;
+	width: 73px;
+	height: 33px;
+	display: inline-block;
+	margin: 0;
+	padding: 0px 0 0 0px;
+	text-decoration: none;
+	text-align: center;
+	font-variant: small-caps;
+	text-weight: 900;
+	font-size: 110%;
+	line-height: 33px;
+}
+.horiNav a:hover{
+background-image: linear-gradient(bottom, rgb(175,242,233) 39%, rgb(110,210,240) 0%);
+background-image: -o-linear-gradient(bottom, rgb(175,242,233) 39%, rgb(110,210,240) 0%);
+background-image: -moz-linear-gradient(bottom, rgb(175,242,233) 39%, rgb(110,210,240) 0%);
+background-image: -webkit-linear-gradient(bottom, rgb(175,242,233) 39%, rgb(110,210,240) 0%);
+background-image: -ms-linear-gradient(bottom, rgb(175,242,233) 39%, rgb(110,210,240) 0%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.39, rgb(175,242,233)),
+	color-stop(0, rgb(110,210,240))
+);
+	color: #4C0016;
+	border: 2px groove #104F53;
+	border-radius: 15px;
+}
+	
+.horiNav a:active{
+	color: #DCCEA7;
+}
